@@ -31,4 +31,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto-render: generate .html files from .php scripts"
-          file_pattern: "*.html **/*.html"
+          file_pattern: "*.html"
